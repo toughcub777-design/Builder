@@ -39,7 +39,7 @@ st.info("💡 **Live AI Feature:** Resto-Wait Predictor active.")
 
 col1, col2 = st.columns(2)
 with col1:
-    resto_name = st.selectbox("Restaurant Name", ["Wingstop - Downtown", "Chipotle - West End", "Local Italian Bistro", "Wendy's - Highway 4"])
+    resto_name = st.selectbox("Restaurant Name", ["Wingstop - Palmetto Bay", "Chipotle - Kendall Drive", "CAVA - West Kendall", "Wendy's - Sunset Drive"])
     offer_amt = st.number_input("DoorDash Offer ($)", value=9.50)
 
 with col2:
