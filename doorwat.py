@@ -26,8 +26,8 @@ def ai_wait_prediction(restaurant, time_of_day):
     return predicted_wait, reason
 
 # --- UI LAYOUT ---
-st.title("🚗 DasherProphet")
-st.subheader("Don't get stuck. Know the wait before you 'Accept'.")
+st.title("🚗 DasherProphet by Mario Pena")
+st.subheader("Don't get stuck! Know the wait before you 'Accept'.")
 
 with st.sidebar:
     st.header("Driver Settings")
